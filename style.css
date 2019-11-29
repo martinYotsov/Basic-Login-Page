@@ -1,0 +1,86 @@
+.container {
+  width: 360px;
+  height: 720px;
+  padding: 60px;
+  margin: 10px auto;
+  background-color: #b3d9ff;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.register {
+  padding: 20px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #3366ff;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-image: url("league1.jpg");
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #b3d9ff;
+  color: black;
+  opacity: 0.8;
+}
+
+.navbar {
+  background-color: grey;
+}
+
+.navbar li {
+  flex: 100px;
+}
+
+.navbar a {
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #b3d9ff;
+
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background: grey;
+  position: relative;
+}
